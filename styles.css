@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:lightyellow;
+    font-family:'Lagosta', cursiva, 'Open Sans', sans-serif, 'Roboto', sans-serif;
+    }
+
+ul {
+    list-style: none;
+        font-style: italic;
+        font-size: 20px;
+    }
+
+a{
+    text-decoration: none;
+    font-weight: 800;
+}
+
+body {
+        background: linear-gradient(90deg,#234380, #0075b6, #00a5b6, #00ce7d, #a8eb12); no-repeat center center fixed;
+        background-size: cover;
+    }
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 25px 1px black;
+    margin-botton: 45px;
+}
+header ul {
+    display: flex;
+        }
+
+header ul li{
+    padding: 10px;
+}
+
+header ul li a:hover {
+    transition: 600ms;
+}
+
+header ul li a:hover {
+    color:crimson;
+}
+
+.container{
+    text-align:center;
+}
+.container .name h1 {
+    font-size: 50px;
+            }
+
+.container .name h5 {
+        font-size: 15px;
+        font-style: italic;
+        padding: 10px;
+        }
+
+#arrow {
+    font-size: 35px;
+    cursor: pointer;
+    animation:blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 15px
+            }
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30 px;
+                }
+
+.form input {
+    width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.form button {
+    width: 20%;
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor:pointer;
+    transition: 300ms;
+    background-color:darkorange;
+    border: none;
+    border-radius: 0px epx 5px 0px;
+    margin-left: -5px;
+    margin-top:25px;
+    }
+
+.form button:hover {
+    background-color:crimson;
+    color:yellow;
+     }
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+.flex div {
+    border: 3px solid #000;
+    margin: 5px;
+    }
+
+.flex img {
+    max-width: 200px;
+}
+
+p {
+    width: 150px;
+}
